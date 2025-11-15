@@ -1,0 +1,6 @@
+@import "tailwindcss";
+* {
+	box-sizing: border-box;
+	transition: all 0.2s ease;
+	font-family: "Kanit", sans-serif;
+}

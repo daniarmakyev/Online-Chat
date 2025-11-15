@@ -37,8 +37,8 @@ export default function JoinChannelModal({
 									key={channel.id}
 									className="flex items-center justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50"
 								>
-									<div>
-										<h3 className="font-semibold text-gray-800">
+									<div className="max-w-[250px]">
+										<h3 className="font-semibold text-gray-800 truncate  ">
 											{channel.name}
 										</h3>
 										<p className="text-sm text-gray-500">
